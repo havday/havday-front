@@ -1,0 +1,57 @@
+{
+  "name": "havday-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@mswjs/http-middleware": "^0.10.1",
+    "@tanstack/react-query": "5.0.0",
+    "@types/styled-components": "^5.1.34",
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6.1.11",
+    "styled-reset": "^4.5.2"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.4.0",
+    "@storybook/addon-essentials": "^8.1.1",
+    "@storybook/addon-interactions": "^8.1.1",
+    "@storybook/addon-links": "^8.1.1",
+    "@storybook/addon-onboarding": "^8.1.1",
+    "@storybook/blocks": "^8.1.1",
+    "@storybook/nextjs": "^8.1.1",
+    "@storybook/react": "^8.1.1",
+    "@storybook/test": "^8.1.1",
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-query": "^1.2.9",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "^9.3.0",
+    "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-storybook": "^0.8.0",
+    "msw": "0.35.0",
+    "prettier": "^3.2.5",
+    "storybook": "^8.1.1",
+    "typescript": "^5"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
