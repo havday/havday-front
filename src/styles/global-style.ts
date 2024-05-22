@@ -1,4 +1,3 @@
-import reset from 'styled-reset';
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
@@ -9,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     letter-spacing: -1px;
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, bellefair, sans-serif;
   }
 
   .txt-c {
