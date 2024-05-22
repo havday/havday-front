@@ -6,7 +6,6 @@ export default function Home() {
       <Head>
         <title>Havday</title>
       </Head>
-      <main>완갱쥬 ㅎ</main>
     </>
   );
 }
