@@ -9,6 +9,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, bellefair, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .txt-c {
