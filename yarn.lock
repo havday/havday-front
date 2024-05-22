@@ -8865,6 +8865,7 @@ __metadata:
     storybook: ^8.1.1
     styled-components: ^6.1.11
     styled-reset: ^4.5.2
+    swiper: ^11.1.3
     typescript: ^5
   languageName: unknown
   linkType: soft
@@ -13206,6 +13207,13 @@ __metadata:
   bin:
     svgo: ./bin/svgo
   checksum: a3f8aad597dec13ab24e679c4c218147048dc1414fe04e99447c5f42a6e077b33d712d306df84674b5253b98c9b84dfbfb41fdd08552443b04946e43d03e054e
+  languageName: node
+  linkType: hard
+
+"swiper@npm:^11.1.3":
+  version: 11.1.3
+  resolution: "swiper@npm:11.1.3"
+  checksum: 88632d147d6511d2c54e4f7fb85686728dad41a740a73fc965cea22f9efbbeb714e56e0d7180b55f24c3fadea65a983804fd7aba5cd143fac1cc17cabc9e04da
   languageName: node
   linkType: hard
 
