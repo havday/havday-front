@@ -28,7 +28,10 @@ export const Header = styled.header`
 export const MenuButton = styled.button`
   position: absolute;
   height: 100%;
+  display: flex;
+  align-items: center;
   left: 0;
+  padding-left: 20px;
 
   color: #040000;
   font-size: 12px;
