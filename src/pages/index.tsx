@@ -1,5 +1,5 @@
-import Head from "next/head";
+import HomeLayout from "@/components/home/home-layout/HomeLayout";
 
 export default function Home() {
-  return <></>;
+  return <HomeLayout />;
 }
