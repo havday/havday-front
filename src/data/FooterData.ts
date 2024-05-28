@@ -11,7 +11,8 @@ const FooterData = {
     "LUNCH PM1 - PM2 \n" +
     "WEEKEND AND HOLIDAY OFF",
   item4: "INSTAGRAM",
-  item5: "TERMS OF USE \n" + "PRIVACY",
+  item5: "TERMS OF USE \n",
+  item6: "PRIVACY",
 };
 
 export default FooterData;
