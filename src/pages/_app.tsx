@@ -3,6 +3,7 @@ import { GlobalStyle } from "@/styles/global-style";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { queryClient } from "@/queryClient";
 import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   if (process.env.NODE_ENV === "development") {
@@ -24,6 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <GlobalStyle />
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </QueryClientProvider>
   );
 }
