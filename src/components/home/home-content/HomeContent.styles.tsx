@@ -16,6 +16,10 @@ export const Box = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media (max-width: ${smallViewport}) {
+    flex-direction: column;
+  }
 `;
 
 export const ContentContainer = styled.div`
@@ -25,12 +29,22 @@ export const ContentContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: ${smallViewport}) {
+    width: 100%;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
 `;
 
 export const Title = styled.div`
   color: #040000;
   font-size: 16px;
   font-family: bellefair, serif;
+
+  @media (max-width: ${smallViewport}) {
+    font-size: 15px;
+  }
 `;
 
 export const ContentBox = styled.div`
@@ -48,17 +62,28 @@ export const Content = styled.div`
   color: #040000;
   font-size: 12px;
   font-family: bellefair, serif;
+
+  @media (max-width: ${smallViewport}) {
+    font-size: 10px;
+  }
 `;
 
 export const Button = styled.button`
+  display: flex;
+  justify-content: flex-start;
+
   cursor: pointer;
   outline: none;
   border: 0;
   background-color: transparent;
 
-  display: flex;
-  text-decoration: underline;
   color: #787878;
   font-size: 14px;
   font-family: bellefair, serif;
+  text-decoration: underline;
+
+  @media (max-width: ${smallViewport}) {
+    justify-content: flex-end;
+    font-size: 13px;
+  }
 `;
