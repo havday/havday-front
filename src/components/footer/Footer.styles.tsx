@@ -4,7 +4,7 @@ const smallViewport = "62rem";
 
 export const Footer = styled.footer`
   height: 120px;
-  margin-top: auto;
+  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
