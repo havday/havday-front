@@ -11,4 +11,22 @@ export const ImageContainer = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+  .swiper {
+    display: block;
+  }
+
+  .swiper-mobile {
+    display: none;
+  }
+
+  @media (max-width: ${smallViewport}) {
+    .swiper {
+      display: none;
+    }
+
+    .swiper-mobile {
+      display: block;
+    }
+  }
 `;
