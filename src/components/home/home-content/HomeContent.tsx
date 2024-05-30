@@ -18,7 +18,7 @@ const HomeContent = () => {
             <styles.Content>{content2}</styles.Content>
           </styles.ContentBox>
         </styles.ContentContainer>
-        <styles.Button>SHOW NOW</styles.Button>
+        <styles.Button>SHOP NOW</styles.Button>
       </styles.Box>
     </styles.Container>
   );
