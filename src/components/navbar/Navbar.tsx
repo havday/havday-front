@@ -11,14 +11,14 @@ const Navbar = () => {
       </styles.MenuButton>
       <styles.LogoBox>
         <Link href="/">
-          <Logo width={86} height={35} />
+          <Logo />
         </Link>
       </styles.LogoBox>
       <styles.Menu>
-        <styles.MenuItem>
+        <styles.MenuItem className="menu">
           <styles.Button>LOGIN</styles.Button>
         </styles.MenuItem>
-        <styles.MenuItem>
+        <styles.MenuItem className="menu">
           <styles.Button>SEARCH</styles.Button>
         </styles.MenuItem>
         <styles.MenuItem>

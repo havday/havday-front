@@ -16,12 +16,7 @@ export const Header = styled.header`
   background-color: transparent;
 
   @media (max-width: ${smallViewport}) {
-    height: 240px;
-    flex-direction: column;
-
-    &.none-menu {
-      height: 77px;
-    }
+    height: 77px;
   }
 `;
 
@@ -41,11 +36,17 @@ export const MenuButton = styled.button`
   outline: none;
   border: 0;
   background-color: transparent;
+
+  @media (max-width: ${smallViewport}) {
+    padding-left: 10px;
+    font-size: 10px;
+  }
 `;
 
 export const LogoBox = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 export const Menu = styled.nav`
@@ -53,17 +54,10 @@ export const Menu = styled.nav`
   height: 100%;
   display: flex;
   align-items: center;
-  padding-right: 20px;
   right: 0;
 
   @media (max-width: ${smallViewport}) {
-    flex-direction: column;
-    padding-top: 5px;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-
-    &.none-menu {
+    .menu {
       display: none;
     }
   }
@@ -74,30 +68,28 @@ export const MenuItem = styled.li`
   padding: 0 5px;
 
   @media (max-width: ${smallViewport}) {
-    text-align: center;
-    padding: 5px 0;
+    padding: 0 3px;
   }
 `;
 
 export const Button = styled.button`
   padding: 5px 10px;
-  border-radius: 5%;
-  background-color: transparent;
+
   cursor: pointer;
   outline: none;
   border: 0;
+  background-color: transparent;
 
   color: #040000;
   font-size: 12px;
   font-family: bellefair, serif;
 
   @media (max-width: ${smallViewport}) {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   &:hover {
-    color: #ffffff;
-    background-color: #a07d5a;
+    background-color: #ffffff;
     opacity: 0.8;
   }
 `;
