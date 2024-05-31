@@ -12,7 +12,7 @@ export const Header = styled.header`
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
   background-color: transparent;
 
   @media (max-width: ${smallViewport}) {
@@ -49,7 +49,7 @@ export const LogoBox = styled.div`
   justify-content: center;
 `;
 
-export const Menu = styled.nav`
+export const Nav = styled.nav`
   position: absolute;
   height: 100%;
   display: flex;
@@ -63,7 +63,7 @@ export const Menu = styled.nav`
   }
 `;
 
-export const MenuItem = styled.li`
+export const NavItem = styled.li`
   list-style: none;
   padding: 0 5px;
 
